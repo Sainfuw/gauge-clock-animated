@@ -53,10 +53,8 @@ h1 {
   stroke-width: 3;
   stroke-linecap: round;
 
-  view-timeline-name: --revealGauge;
-
   animation: rotateClockwise ease-in-out forwards;
-  animation-timeline: --revealGauge;
+  animation-timeline: view();
   animation-range: entry 0 cover 35%; 
 }
 
